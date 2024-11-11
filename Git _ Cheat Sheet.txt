@@ -1,0 +1,105 @@
+Git _ Cheat Sheet 
+
+1. Check the current Directory 
+pwd 
+
+2. Change the directory 
+cd (new directory/path)
+
+3. Convert the current repository into Git 
+git init 
+
+4. Check the status of git 
+git status 
+
+5. Add particular file 
+git add (file_name) 
+
+6. Add all the file in the git repository 
+git add . 
+
+7. Remove particular file from the git 
+git rm --cached (file_name)
+
+
+8. Committing the Changes 
+git commit 
+
+
+9. See all the Commit 
+git log 
+
+
+10. Give a description/name to your commit 
+git commit -m "(description for commit) 
+
+
+11. One line for all the commit changes info 
+git log --oneline 
+
+
+12. Go back and look at previous commits. Cant make any changes only View.
+git checkout (shaw_info) 
+
+13. Go back to the Master Branch 
+git checkout master
+
+
+14. Revert the commit 
+git revert (shaw_info) 
+
+15. GO back to the previous commit but also remove the commits on the way 
+git reset (shaw_info)
+
+
+16. git reset (shaw_info) --hard
+
+
+17. Create new branch 
+git branch (branch_name) 
+
+
+18. Go to the Branch
+git checkout (branch_name) 
+
+
+19. Delete a Branch 
+git checkout master 
+git branch -D (branch_name_to_be deleted) 
+
+
+
+20. Merge branch to Master
+git checkout master 
+git merge (branch_name to be merged) 
+
+
+21. Push the files from Local repository to remote repository (GitHub) 
+git remote add origin (link of the repository)                                (The info is also available when you make a remote repository) 
+
+git push -u origin master 
+
+
+22. .gitignore 
+This File will ignore. not display all the files in the remote repository 
+
+in the file/.txt file add the name of file you want to ignore or not display in the repository
+
+# - marks line as a comment 
+* - matches ) or more characters 
+? - matches 1 character 
+[abc] - matches a,b, -or_, c
+** - matches nested directories - a/**/z matches
+
+
+
+23. Copy other project/repository into our own 
+Fork 
+
+24. Clone from remote repository to local
+git clone (link of the repository) 
+
+
+25. Pull Request in the GitHub (For pulling request)
+
+
